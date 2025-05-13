@@ -5,8 +5,8 @@ with open('README.md', 'r') as f:
     description = f.read()
 
 setup(
-    name='resistant_kafka',
-    version='0.7',
+    name='resistant_kafka_avataa',
+    version='0.3',
     packages=find_packages(),
     install_requires=[
         "confluent-kafka==2.8.2",
